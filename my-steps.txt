@@ -1,0 +1,127 @@
+### Step 2A
+$ pwd
+/c/Users/yanwa
+### Step 2B
+$ cd ~/OneDrive/Desktop
+### Step 2C
+ cd ~/OneDrive/Desktop/unit1-git-practice
+### Step 2D
+$ pwd
+/c/Users/yanwa/OneDrive/Desktop/unit1-git-practice
+### Step 2E
+$ ls -la
+total 8
+drwxr-xr-x 1 yanwa 197609   0 Nov  9 12:10 ./
+drwxr-xr-x 1 yanwa 197609   0 Nov  9 12:09 ../
+-rw-r--r-- 1 yanwa 197609 430 Nov  9 12:09 my-steps.txt
+### Step 2F
+ls -la
+my-steps.txt
+### Step 2G
+cd ~
+### Step 2H
+pwd
+/c/Users/yanwa
+### Step 2I
+ 1.py
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{b23cbdd2-e0e4-11ed-a361-006f00011ffb}.TM.blf
+ NTUSER.DAT{b23cbdd2-e0e4-11ed-a361-006f00011ffb}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{b23cbdd2-e0e4-11ed-a361-006f00011ffb}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ PrintHood@
+ PythonOpenFiles.py
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+'new text.txt'
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ py.py
+ source/
+
+### Step 2J
+cd ~
+
+### Step 2K
+cd OneDrive/Desktop/unit1-git-practice
+
+### Step 3A
+mkdir veggies
+mkdir meats
+mkdir desserts
+
+### Step 3B
+mv desserts sweets
+
+### Step 3C
+mkdir proteins
+
+### Step 3D
+mv meats proteins
+
+### Step 3E
+cd .. 
+cd veggies
+touch carrot.txt
+touch pea.txt
+
+### Step 3F
+cd ../sweets
+touch cookie.txt
+### Step 3G
+mv cookie.txt donut.txt
+
+### Step 3H
+touch thing.txt
+
+### Step 3I
+cp thing.txt tofu.txt
+
+### Step 3J
+mv tofu.txt proteins
+
+### Step 3K
+cd../unit1-git-practice
+cp thing.txt crab.txt
+mv crab.txt proteins/meats
+### Step 3L
+cd ..
+cd ..
+rm thing.txt
+### Step 3M
+cp -r veggies plants
+
+### Step 3N
+
+mkdir drinks
+rm -r drinks
+
+### Step 4
+
+
+### Step 5
+
+
+### Step 6
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
