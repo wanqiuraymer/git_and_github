@@ -115,13 +115,25 @@ mkdir drinks
 rm -r drinks
 
 ### Step 4
-
-
+git config --global user.name "Wanqiu Raymer"
+git config --global user.email "yanwanqiu@gmail.com"
+ls
+cd unit1-git-practice
+git init
+git add .
+git commit -m "Unit1 git practice commit"
 ### Step 5
+git remote add origin https://github.com/wanqiuraymer/git_and_github.git
+git branch -M main
+git push -u origin main
 
 
 ### Step 6
-
+touch menu.txt
+git status
+git add .
+git commit -m "starting a menu"
+git push
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
